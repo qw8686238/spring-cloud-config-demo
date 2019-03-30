@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: liming
+    password: liming
+    url: jdbc:mysql://192.168.16.128:3306/test?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+eureka:
+  client:
+    service-url: http://localhost:8676/eureka/
+server:
+  port: 9080
